@@ -1,0 +1,70 @@
+/* src/styles/detail.css */
+
+.detail-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.detail-back-link {
+  display: inline-block;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #22c55e;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.detail-back-link:hover {
+  color: #16a34a;
+}
+
+.detail-title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #111827;
+}
+
+.detail-image {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(34, 193, 195, 0.3);
+  margin-bottom: 25px;
+  object-fit: cover;
+}
+
+.detail-section {
+  margin-bottom: 30px;
+}
+
+.detail-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #22c55e;
+  padding-bottom: 6px;
+  color: #059669;
+}
+
+.detail-section p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .detail-container {
+    padding: 15px 20px;
+    margin: 20px auto;
+  }
+
+  .detail-title {
+    font-size: 1.8rem;
+  }
+}
