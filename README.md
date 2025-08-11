@@ -1,12 +1,37 @@
-# React + Vite
+# 🍽️ App de Recetas React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web para buscar recetas usando la **API de Spoonacular**, desarrollada en **React**.  
+Permite buscar recetas por ingrediente, ver imágenes y acceder a los detalles completos de cada una.
 
-Currently, two official plugins are available:
+🌐 **Deploy en Vercel:** [recetas-app-zeta.vercel.app](https://recetas-app-zeta.vercel.app/)  
+📦 **Repositorio GitHub:** [recetas-app](https://github.com/kevinperonamartinez/recetas-app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Características
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 **Búsqueda dinámica** de recetas por ingrediente.
+- 🖼️ **Tarjetas visuales** con imagen, título y botón de detalles.
+- 📜 **Página de detalles** con información completa de la receta.
+- 🎨 Estilos personalizados con **CSS moderno**.
+- ⚡ Interfaz responsive para móviles y escritorio.
+
+---
+
+## 🚀 Tecnologías usadas
+
+- **React** (Vite)
+- **React Router**
+- **Axios**
+- **CSS puro**
+- **API de Spoonacular**
+
+---
+
+
+## 📦 Instalación y uso
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/kevinperonamartinez/recetas-app.git
+   cd recetas-app
